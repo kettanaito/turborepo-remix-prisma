@@ -1,0 +1,16 @@
+{
+  "name": "clients",
+  "version": "0.0.0",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "generate": "prisma generate",
+    "build": "yarn generate && tsc --build"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.9.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.9.1"
+  }
+}
